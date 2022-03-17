@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    background: #F0FFFF;
+    }
+    
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    
+    }
+    
+    .header {
+    background:  rgba(35,43,85,0.95) url('img/wheat-back.jpg') no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    min-height: 50px;
+    color: black;
+    padding-top: 20px;
+    box-sizing: border-box;
+    }
+    
+    .page-header {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    background: #F0FFFF url('img/wheat-back.jpg') no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    min-height: 10px;
+    padding-top: 44px;
+    box-sizing: border-box;
+    background: #F6F7F9;
+    margin: 1em auto;
+    padding: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    text-transform:uppercase;
+    
+    }

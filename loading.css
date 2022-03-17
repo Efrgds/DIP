@@ -1,0 +1,31 @@
+body {
+margin: 0;
+padding: 0;
+font-family: "Arial", sans-serif;
+background: #F6F7F9;
+
+}
+.file-drop {
+background:#fff;
+margin:auto;
+}
+.file-drop_dragover {
+border:2px dashed #333;
+}
+.file-drop__input {
+border:0;
+}
+.message-div {
+background:#F6F7F9;
+color:#333;
+position:fixed;
+bottom:25px;
+right:25px;
+font-size:15px;
+padding:5px;
+z-index:99999;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.message-div_hidden {
+right:-9999999999999999999px;
+}
