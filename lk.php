@@ -62,7 +62,7 @@
                 
             <div id="Help" class="tabcontent">
                 <h3>Поддержка</h3>
-                <p>Tokyo is the capital of Japan.</p>
+                <p></p>
             </div>
          </div>
 
