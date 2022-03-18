@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="header"><div class="page-header"><div class="header-top clearfix">
-	<a href="index.php"><img src="images/LOGO.jpg"alt="Логотип Discuss" width="7%"></a>
+	<a href="index.php"><img src="LOGO.jpg"alt="Логотип Discuss" width="7%"></a>
        <span  class="bg-light border"><a href="login.php">Войти в систему</a></span >
 	   <span  class="bg-light border"><a href="vhod.php">Регистрация</a></span >
 </div></div></div>
