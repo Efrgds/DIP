@@ -12,7 +12,7 @@
     <div class="header">
         <div class="page-header">
             <div class="header-top clearfix">
-                <a href="index.php"><img src="images/LOGO.jpg"alt="Логотип Discuss" width="7%"></a>
+                <a href="index.php"><img src="LOGO.jpg"alt="Логотип Discuss" width="7%"></a>
                 <span  class="bg-light border"><a href="login.php">Войти в систему</a></span >
 	            <span  class="bg-light border"><a href="vhod.php">Регистрация</a></span >
             </div>
@@ -29,7 +29,7 @@
             <div id="Profile" class="tabcontent"></div>
             <h3>Профиль</h3>
             <div class="photo">
-                <a href="images/user.png" target="_blank"><img src="images/user.png"></a>
+                <a href="images/user.png" target="_blank"><img src="user.png"></a>
                 <form action="/accept.php" method="POST" enctype="multipart/form-data">
                     <input type="file" name="photo" multiple accept="image/*,image/jpeg"><br> 
                     <input type="submit" value="Загрузить"><br>
