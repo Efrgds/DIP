@@ -26,7 +26,7 @@
         </div>
 
         
-            <div id="Profile" class="tabcontent"></div>
+            <div id="Profile" class=" tabcontent">
             <h3>Профиль</h3>
             <div class="photo">
                 <a href="images/user.png" target="_blank"><img src="user.png"></a>
@@ -47,7 +47,7 @@
 	        	    <input type="submit" value="Сохранить">
                 </form>
             </div>
-            
+            </div>
             
             <div id="Load" class="tabcontent">
                 <h3>Загрузка файлов</h3>
