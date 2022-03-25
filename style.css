@@ -1,0 +1,152 @@
+*{box-sizing: border-box}
+
+.header {
+    background:  rgba(35,43,85,0.95) url('img/wheat-back.jpg') no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    min-height: 50px;
+    color: black;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+    
+.page-header {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #F0FFFF url('img/wheat-back.jpg') no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    min-height: 10px;
+    padding-top: 44px;
+    box-sizing: border-box;
+    background: #F6F7F9;
+    margin: 1em auto;
+    padding: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    text-transform:uppercase;
+    
+}
+.header .men {
+    float: right;
+    padding-bottom: 5%;
+}
+.header .img {
+    width: 32px;
+    border-radius: 10px;
+
+}
+
+.container {
+    padding: 16px;
+    width: 50%; 
+
+  }
+/* Полные поля ввода полной ширины */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  .submit {
+    background-color: #538fe2;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .submit:hover {
+    opacity:1;
+  }
+  
+  /* Добавьте синий цвет текста на ссылки*/
+  a {
+    color: #000;
+
+  }
+  
+  /* Установите серый цвет фона и отцентрируйте текст раздела «Войти» */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+    width: 100%;
+    
+  }
+
+
+
+
+
+/* Стиль все поля ввода */
+input .password {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+/* Стиль кнопки отправки */
+input .password[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Стиль контейнер для входов */
+
+
+/* Блок сообщения отображается, когда пользователь нажимает на поле пароля */
+#message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#message p {
+    padding: 10px 35px;
+    font-size: 18px;
+}
+
+/* галочка */
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: "\2714";
+}
+
+/* крестик */
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: "\2718"
+}
