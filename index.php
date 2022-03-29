@@ -24,17 +24,17 @@
   <!-- Полная ширина изображения с номером и текстом подписи -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="images/3.jpg" style="height: 500px">
+    <img src="3.jpg" style="height: 500px">
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="images/2.jpg" style="height: 500px">
+    <img src="2.jpg" style="height: 500px">
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-    <img src="images/3.jpg" style="height: 500px">
+    <img src="3.jpg" style="height: 500px">
   </div>
 
   <!--Далее и предыдущие кнопки-->
